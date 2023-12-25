@@ -1,0 +1,11 @@
+import math
+weight =int(input("enter a weight"))
+unit=input("L(bs) or K(g) :")
+if unit =='L':
+    converter = weight*0.45
+    
+    print(f"you are {converter} pounds")
+else:
+    converter = weight / 0.45
+    print(f"you are {converter} pounds")
+    
