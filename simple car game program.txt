@@ -1,14 +1,14 @@
 while True:
     instruction = input(">")
     if instruction=='start':
-        print("car started...ready to go")
+        print("car started...ready to go")     //if instruction is start , the car is started
     
     elif instruction=='stop':
-        print("car stopped")
+        print("car stopped")                //stop instruction is executed , then car is stopped
         
     elif instruction=='quit':
-        break;
+        break;                              //out of the loop using break statement
     elif instruction=='help':
-        print("start -- start the car \n stop -- to stop the car \n quit -- to exit ")
+        print("start -- start the car \n stop -- to stop the car \n quit -- to exit ")  //they show several statements
     else:
         print("i don't understand that")
