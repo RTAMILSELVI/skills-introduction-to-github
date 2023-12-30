@@ -1,0 +1,22 @@
+
+animal = input("Enter a animal name :  ")
+adjective = input("Enter a adjective :  ")
+day = input("enter a day :  ")
+animal2 = input("enter a animal name :  ")
+adj = input("enter a adjective :  ")
+place = input("enter a place :  ")
+
+
+story1 = f"once upon a time , there was a {animal} in the forest.which is the {adjective} animal. \n on {day} ,he see a another {animal2} then, the {animal} goes near to the {animal2}. both are {adj} near the {place}"
+
+resource_water = input("Enter a resource :  ")
+animal3 = input("Enter a animal name :   ")
+
+print("\n")
+story2 = (f"they are talking about the water in the {resource_water}.\n'the water are so polluted because of wastage and drainage things are comes up here,\n these all are done by the humans {animal} said'did you heard about {animal3}'s death'. \n{animal2} replied 'yes,how did {animal3} died'.\
+          \n{animal3} drink the polluted water,\n the contamination of wastage and hazardous chemical leads to death.")
+print("\tThe Forest")
+print("\n\t---------")
+print(story1)
+print(story2)
+print("\n\t\t---------------Thanking you---------------")
