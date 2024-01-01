@@ -1,0 +1,10 @@
+def check_anagram(str1,str2):
+    str1_sorted = sorted(str1)
+    str2_sorted = sorted(str2)
+    return str1_sorted==str2_sorted
+
+
+str1 = "ten"
+str2 = "net"
+
+print(check_anagram(str1,str2))
